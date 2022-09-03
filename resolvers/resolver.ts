@@ -1,7 +1,7 @@
 import { Arg, Mutation, Query, Resolver } from "type-graphql";
-import { CreateClientInput, EditClientInput } from "../Inputs/ClientInput";
-import { Client } from "../Models/client";
-import { ClientMongo } from "../mongodb/Models/client";
+import { CreateClientInput, EditClientInput } from "../inputs/ClientInput";
+import { Client } from "../models/client";
+import { ClientMongo } from "../mongodb/models/client";
 
 @Resolver()
 export class ClientResolver {
